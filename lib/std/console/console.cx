@@ -1,0 +1,9 @@
+#no-cpp
+
+import std.io.InputStream;
+import std.io.OutputStream;
+
+module console {
+	InputStream* input;
+	OutputStream* output;
+}

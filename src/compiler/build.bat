@@ -7,5 +7,5 @@ src/Object.cpp ^
 -L "../c++/lib" ^
 -l "boost_filesystem-mgw46-mt-1_52" ^
 -l "boost_system-mgw46-mt-1_52" ^
--o "../../bin/compiler.exe" -W
+-o "../../../bin/compiler.exe" -W
 pause

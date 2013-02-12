@@ -1,0 +1,9 @@
+import std.String;
+import std.console;
+
+module helloworld {
+	int main() {
+		console.out.write("Hello world!");
+		return 0;
+	}
+}
