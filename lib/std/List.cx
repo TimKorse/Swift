@@ -1,0 +1,11 @@
+#no-cpp
+
+public class List<class T> {
+    List();
+    
+    add(T value);
+    remove(int index);
+    int find(T value);
+    
+    operator [] (int index);
+}
