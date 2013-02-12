@@ -3,12 +3,14 @@
 
 #include <string>
 #include <vector>
-
+#include <stack>
 /*
 	Some ease for when this project will be converted to the Swift language.
 */
 
-typedef std::vector Vector;
+
+template <class T> class Vector : public std::vector<T> {};
+template <class T> class Stack : public std::stack<T> {};
 typedef std::string String;
 
 #endif //HG_DEFAULT
