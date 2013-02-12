@@ -1,0 +1,14 @@
+#no-cpp
+
+import std.io.Representation;
+
+class InputStream {
+	
+	virtual void write(Reprensentation* obj);
+	virtual void read(Reprensentation* obj);
+	
+	int size();
+	void seek(int);
+	int tell();
+	
+}
