@@ -1,15 +1,9 @@
 #no-cpp
+import std.Regex;
 
 class String {
-	/*
-		String class;
-		...
-	*/
-	
-	String(char* value);
-	
-	String replace(Regex match, String value, bool all = false);
+		
+	String replace(Regex match, String value, bool all);
 	String find(Regex match);
-	
-	char operator [int i];
+
 }

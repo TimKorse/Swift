@@ -1,0 +1,6 @@
+import std.String;
+
+public class Regex {
+	void compile();
+	bool check(String seq);
+}

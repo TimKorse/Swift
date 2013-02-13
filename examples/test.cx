@@ -1,0 +1,8 @@
+import std.String;
+
+class Test {
+	String message;
+	int main() {
+		
+	}
+}
