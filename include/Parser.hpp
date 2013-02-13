@@ -1,5 +1,5 @@
-
-#include <fstream>
+#ifndef HG_PARSER
+#define HG_PARSER
 
 #include "default.hpp"
 
@@ -10,8 +10,6 @@
 #include "Type.hpp"
 
 #include "includes.hpp"
-
-void debug(int i);
 
 class Parser
 {
@@ -317,3 +315,5 @@ public:
 		return type;
 	}
 };
+
+#endif //HG_PARSER
